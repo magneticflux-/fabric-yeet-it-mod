@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "package": "com.skaggsm.yeetit.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinBowItem",
+    "MixinCrossbowItem",
+    "MixinEnderPearlItem",
+    "MixinSplashPotionItem",
+    "MixinSnowballItem",
+    "MixinThrownEntities",
+    "MixinProjectileEntity",
+    "MixinFallingBlockEntity",
+    "MixinTntEntity",
+    "MixinAbstractMinecartEntity",
+    "MixinBoatEntity"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

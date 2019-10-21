@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "yeet-it",
+  "version": "${version}",
+  "name": "Yeet It Mod",
+  "description": "Thrown things have proper gravity!",
+  "authors": [
+    "magneticflux-"
+  ],
+  "contact": {
+    "homepage": "https://github.com/magneticflux-/yeet-it-mod",
+    "sources": "https://github.com/magneticflux-/yeet-it-mod"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/yeet-it/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.skaggsm.yeetit.YeetItMod"
+    ]
+  },
+  "mixins": [
+    "yeet-it.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
